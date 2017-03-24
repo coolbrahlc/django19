@@ -1,7 +1,7 @@
 from django.db import models
 from products.models import Product
 # Create your models here.
-
+# 1234
 class Status(models.Model):
     name = models.CharField(max_length=24, blank=True, null=True, default=None)
     is_active = models.BooleanField(default=True)
